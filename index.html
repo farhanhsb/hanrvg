@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Farhan Website</title>
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-light top-header">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Farhan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class=" nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Hobi</a></li>
+                            <li><a class="dropdown-item" href="#">Gaming</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Link bokep</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <button class="btn btn-outline-success me-5 " type="submit">+Submit</button>
+                    <a href="" class="me-3  shadow p-2 bg-body rounded-circle">
+                        <img src="assets/img/gmail.png" alt="gmail" class="icon_gmail">
+                    </a>
+                    <a href="" class=" shadow p-2 bg-body rounded-circle">
+                        <img src="assets/img/facebook.png" alt="facebook" class="icon_facebook">
+                    </a>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Akhir NavBar -->
+
+    <!-- Intro -->
+    <section id="search ">
+        <div class="container pt-5 ">
+            <div class="row">
+                <div class="col-12 text-center mb-3">
+                    <h1 class="display-4 mb-3">Muhammad Farhan Hasibuan</h1>
+                    <p class="lead mb-0 ">Gamer Ganteng Idaman</p>
+                    <p class="lead mb-3 ">LifeAfter Player</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-5 mx-auto">
+            <!-- Dropdown Vektor -->
+            <div class="input-group mb-0">
+                <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">Bio
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Usia</a></li>
+                    <li><a class="dropdown-item" href="#">Alamat</a></li>
+                    <li><a class="dropdown-item" href="#">Kebangsaan</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Dan lain-lain nya</a></li>
+                </ul>
+                <input type="text" placeholder="Cari Selengkapnya..." class="form-control intex border-secondary"
+                    aria-label="Text input with dropdown button">
+                <button class="btn btn-outline-secondary inbut" type="button" id="button-addon2">
+                    <em class="bi bi-search"></em>
+                </button>
+            </div>
+            <!-- Akhir Dropdown Vectors -->
+        </div>
+    </section>
+    <!-- Akhir Intro -->
+
+    <!-- Category -->
+    <section id="category">
+        <div class="col-12 mb-0 mt-3">
+            <nav>
+                <div class="nav nav-category " id="nav-tab" role="tablist">
+                    <button class="nav-link text-dark fw-bold " id="nav-latest-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-latest" type="button" role="tab" aria-controls="nav-latest"
+                        aria-selected="true">
+                        <span class="d-flex">
+                            Latest
+                            <img src="assets/img/indicator.png" alt="" class="icon_indicator">
+                        </span>
+
+
+                    </button>
+                    <button class="nav-link text-dark fw-bold " id="nav-popular-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-popular" type="button" role="tab" aria-controls="nav-popular"
+                        aria-selected="false">Popular
+                    </button>
+                    <h2 class="disabled">|</h2>
+                    <button class="nav-link  fw-bold" id="nav-premium-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-premium" type="button" role="tab" aria-controls="nav-premium"
+                        aria-selected="false">Premium
+                    </button>
+                    <button class="nav-link  fw-bold me-auto" id="nav-free-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-free" type="button" role="tab" aria-controls="nav-free"
+                        aria-selected="false">Free
+                    </button>
+                    <form class="d-flex ">
+                        <a href="" class="me-3">
+                            <img src="assets/img/filter.png" alt="filter" class="icon_filter">
+                        </a>
+                        <a href="">
+                            <img src="assets/img/fav.svg" alt="favorite" class="icon_fav">
+                        </a>
+                    </form>
+                </div>
+            </nav>
+            <div class="col-12 ms-3 mt-3 ">
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active " id="nav-latest" role="tabpanel"
+                        aria-labelledby="nav-latest-tab">
+                        <div class="row ">
+                            <div class="col-4 border border-white border-5 rounded mb-3 ">
+                                <div class="card-body ">
+                                    <img src="assets/img/v1.jpg" class="card-img-top img_fav p-3" alt="...">
+                                    <h5 class="card-title mt-3 text-center">
+                                        I'm still waiting for my time to come
+                                    </h5>
+                                </div>
+                                <div class="card-body text-center">
+                                    <span>
+                                        <a href="https://in.pinterest.com/pin/713116922236129557/" target="_blank"
+                                            class="card-link text-dark fw-bold fs-3 me-2">Download</a><img
+                                            class="icon_download mb-2" src="assets/img/download.svg" alt="download">
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-4 border border-white border-5 rounded mb-3  ">
+                                <div class="card-body ">
+                                    <img src="assets/img/v2.jpg" class="card-img-top img_fav p-3" alt="...">
+                                    <h5 class="card-title mt-3 text-center">
+                                        LifeAfter Night falls
+                                    </h5>
+                                </div>
+                                <div class="card-body text-center">
+                                    <span>
+                                        <a href="https://in.pinterest.com/pin/713116922233830226/" target="_blank"
+                                            class="card-link text-dark fw-bold fs-3 me-2">Download</a><img
+                                            class="icon_download mb-2" src="assets/img/download.svg" alt="download">
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-4 border border-white border-5 rounded mb-3 ">
+                                <div class="card-body ">
+                                    <img src="assets/img/v3.jpg" class="card-img-top img_fav p-3" alt="...">
+                                    <h5 class="card-title mt-3 text-center">
+                                        Infected Worker
+                                    </h5>
+                                </div>
+                                <div class="card-body text-center">
+                                    <span>
+                                        <a href="https://in.pinterest.com/pin/269019777732348258/" target="_blank"
+                                            class="card-link text-dark fw-bold fs-3 me-2">Download</a><img
+                                            class="icon_download mb-2" src="assets/img/download.svg" alt="download">
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-popular" role="tabpanel" aria-labelledby="nav-popular-tab">
+                        <div class="row">
+                            <div class="col-4">
+                                <p>Data</p>
+                            </div>
+                            <div class="col-4">
+                                <p>Data</p>
+                            </div>
+                            <div class="col-4">
+                                <p>Data</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-premium" role="tabpanel" aria-labelledby="nav-premium-tab">
+                        Premium
+                    </div>
+                    <div class="tab-pane fade" id="nav-free" role="tabpanel" aria-labelledby="nav-free-tab">Free
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="container mt-3 mb-3">
+            <div class="row ">
+                <div class="col-5 me-5 txt_collection ">
+                    <a href="">Discover All</a><br>
+                    <a href="">Collection</a>
+                </div>
+                <div class="col-lg-4 mx-auto ">
+                    <button class="btn border-white rounded-3 bg-white btn_next">Next Page
+                        <img src="assets/img/arrow-right.svg" alt="">
+                    </button>
+                </div>
+                <div class="col-2 mx-auto">
+                    <span class="txt_page">Page
+                        <button class="btn btn_left w-25"><img src="assets/img/arrow-left.svg" alt="">
+                            <button class="btn bg-white border me-1">1</button>
+                            <span class="m-auto">Of 120</span>
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- AkhirCategory -->
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
